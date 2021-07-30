@@ -1,0 +1,29 @@
+<html>
+<head>
+    <title> Amazon cellphone review analysis </title>
+    <link rel="stylesheet" href="{{url_for('static',filename='css/index78.css')}}">
+    
+</head>
+<body>
+<form action="/" method="post">
+
+ <div class="form-container">
+ <div class="tr"> 
+   <div class="logo"></div>
+   <ul class="list">
+      <li class="Motto"><h3><b><b>Your Review means a LOT!!!</b></b></h3></li>
+      <li><input type="text" name="title" placeholder="Enter the title"></li> 
+      <li><textarea id="review1" name="review" rows="4" cols="50" placeholder="Enter your review"></textarea></li>
+      <li class="pre"><input type="submit" id="btn" name="predict" value="Predict"></li> 
+      <li align = "center" class="result"><b>{{ypred}}</b></li>
+      
+   </ul> 
+  </div>
+ </div> 
+</form> 
+
+	
+</body>
+</html>      
+
+
